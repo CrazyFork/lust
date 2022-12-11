@@ -1,3 +1,17 @@
+# personal notes
+the most interesting part to me is the virtual machine. basically that means simulate
+a underlying os. with this ability to customize runtime, it can unlock many potentials.
+
+## how a virtual machine is implemented
+
+for a virtual machine to work, it has to 
+* able to branching, looping, this indicates it must has a conditional jump ability to some code address
+* call subroutine, this is done using function frame to booking values at registers or some other medium
+* store computation result. in a normal stack based machine, this is stored at regsiters. 
+
+![virtual machine](virtual%20machine.svg)
+
+
 # lust: Lua in Rust
 
 This project implements a parser, compiler, and virtual machine
